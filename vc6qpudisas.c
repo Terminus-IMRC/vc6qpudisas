@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /* From Mesa */
-#include <qpu_disasm.h>
-#include <ralloc.h>
+#include <broadcom/qpu/qpu_disasm.h>
+#include <util/ralloc.h>
 
 int main(void)
 {
