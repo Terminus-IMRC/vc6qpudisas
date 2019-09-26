@@ -22,9 +22,13 @@ make
 ```
 
 
-## Example
+## How to use
 
 ```
 $ ./vc6qpudisas <<<'0x3c00318038811000'
 add  r0, r1, r2      ; nop
 ```
+
+See
+[mesa/src/broadcom/qpu/tests/qpu_disasm.c](https://gitlab.freedesktop.org/mesa/mesa/blob/master/src/broadcom/qpu/tests/qpu_disasm.c)
+for other examples.
