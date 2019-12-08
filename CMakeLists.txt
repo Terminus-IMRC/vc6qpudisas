@@ -18,7 +18,7 @@ else ()
     message(FATAL_ERROR "Build directory of Mesa is not found")
 endif ()
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pipe -g -O2 -W -Wall -Wextra")
+add_compile_options(-pipe -g -O2 -W -Wall -Wextra)
 
 add_executable(vc6qpudisas vc6qpudisas.c)
 target_include_directories(vc6qpudisas PRIVATE
